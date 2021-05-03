@@ -2,7 +2,7 @@
 
 A new Flutter application.
 
-## Getting Started
+## Getting inf530 Started
 
 This project is a starting point for a Flutter application.
 
