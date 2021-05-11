@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hello_flutter/screens/TauHomePage.dart';
 import 'screens/home.dart';
 import 'Util.dart';
 
@@ -40,20 +41,21 @@ class MyHomePage extends StatelessWidget {
           padding: EdgeInsets.zero,
           children: <Widget>[
             DrawerHeader(
-              child: Text('Drawer Header'),
+              child: Text('TAU MOBIL'),
               decoration: BoxDecoration(
-                color: Colors.deepPurple.shade400,
+                color: createMaterialColor(Color(0xff555555)),
               ),
             ),
             ListTile(
               title: Text(
-                'Item 1',
+                'Tau website',
               ),
               onTap: () {
                 // Update the state of the app
-                // ...
+
                 // Then close the drawer
                 Navigator.pop(context);
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> TauHP()));
               },
             ),
             ListTile(

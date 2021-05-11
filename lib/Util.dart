@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'screens/home.dart';
 
 
 //Custom renk seçimi

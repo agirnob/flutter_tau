@@ -1,14 +1,12 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import '../main.dart';
 import '../Util.dart';
 
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    MyApp color = new MyApp();
     //TODO buradaki column u layout ile düzeltmek
     return Container(
       child: Column(
